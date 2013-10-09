@@ -1,4 +1,1 @@
-twitterstreamer
-===============
-
-Filter Twitter stream by keywords.
+README.md

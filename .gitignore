@@ -1,3 +1,4 @@
+src/main/scala/com/hackeracademy/AuthVariables.scala
 *.class
 *.log
 
