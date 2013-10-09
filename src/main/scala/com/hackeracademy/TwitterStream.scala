@@ -2,15 +2,15 @@ package com.hackeracademy.twitterstreamer
  
 import twitter4j._
  
-object StatusStreamer(wait: Int, key: String) {
-
-  val twitterStream = new TwitterStreamFactory(Util.config).getInstance
-  twitterStream.addListener(Util.simpleStatusListener(key))
-  twitterStream.sample
-  Thread.sleep(wait)
-  twitterStream.cleanUp
-  twitterStream.shutdown
-
+object StatusStreamer {
+  def apply(wait: Int, key: String) = {
+    val twitterStream = new TwitterStreamFactory(Util.config).getInstance
+    twitterStream.addListener(Util.simpleStatusListener(key))
+    twitterStream.sample
+    Thread.sleep(wait)
+    twitterStream.cleanUp
+    twitterStream.shutdown
+  }
 }
 
 object Util {
