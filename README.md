@@ -23,7 +23,7 @@ twitterstreamer.StatusStreamer(1000, "yolo")
 ```
 
 ### Last Notes
-I purposely left out a file ``src/main/scala/com/hackeracademy/AuthVariables.scala`` For the user to fill in there own oauth credentials. For those that are new, should look something like this:
+I purposely left out the file ``src/main/scala/com/hackeracademy/AuthVariables.scala`` for the user to fill in their own oauth credentials. For those that are new, should look something like this:
 
 ```scala
 package com.hackeracademy.twitterstreamer
