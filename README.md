@@ -13,6 +13,7 @@ chmod a+x build
 ./build
 ```
 ```
+> update
 > console
 ```
 ```scala
