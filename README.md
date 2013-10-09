@@ -7,7 +7,7 @@ Listens to the twitter streaming API and filters responses based on keywords.
 - Sbt
 - Creativity
 
-### User
+### Use
 ```bash
 chmod a+x build
 ./build
